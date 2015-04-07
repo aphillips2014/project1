@@ -1,0 +1,262 @@
+/*Global selector  which will put a border around all elements for 
+  easier viewing of elements
+*/
+ * {
+    border: 0px solid red !important;
+
+}
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+h1 {
+     font-family: 'Lato', sans-serif;
+     text-align: right;
+     color: #bcbbbb;
+     font-size: 3em;
+     margin-top: 30px;
+}
+
+h2 {
+     font-family: 'Lato', sans-serif;
+     color: #bcbbbb;
+     font-size: 30px;
+     text-align: center;
+
+}
+
+h4 {
+     font-family: 'Lato', sans-serif;
+     text-align: right;
+     color: #F8981D;
+     margin-top: -30px;
+     font-weight: 500;
+     font-size: 1.5em;
+     margin-bottom: 0px;
+}
+
+
+h3 {
+     font-family: 'Lato', sans-serif;
+     text-align: right;
+     color: #bcbbbb;
+     margin-top: -30px;
+     font-weight: 500;
+     font-size: 22px;
+     margin-bottom: 0px;
+}
+
+
+#featured-work h2 {
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 500px) {
+  #bokeh-align {
+    display: none;
+  }
+  #sunflower-align {
+    display: none;
+  }
+  #appify-align {
+    display: none;
+  }
+  .name-and-title {
+    display: none;
+  }
+}
+
+#bokeh-align {
+  /*padding-left: 40px;*/
+  padding-left: 57px;
+  overflow: auto;
+
+}
+
+#sunflower-align {
+  padding-left: 28px;
+}
+
+
+#appify-align {
+  overflow: auto;
+}
+
+
+/* Put a border around a specific image for reference */
+#h1-name {
+  border: 0px solid red !important;
+}
+
+/*#center {
+  align-content: space-between;
+}*/
+
+
+div[id*="post"] { 
+    color: red; 
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 0px;
+    display: flex;
+    display: -webkit-flex;
+    /*flex-flow: row wrap;*/
+}
+
+
+.grid {
+    margin: 0 auto;
+    max-width: 1090px;
+    width: 100%;
+    border: 1px solid black
+}
+
+
+.gray-line {
+    width: 100%;
+    background-color: #bcbbbb;
+    height: 5px;
+    margin-top: 10px;
+}
+
+/* Size the image in the class .big-image appropriately */
+.big-image img {
+    height: 450px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.udacity-logo img {
+  margin-top: 25px;
+}
+
+/* Put a border around a specific image for reference */
+#square {
+  border: 0px solid red !important;
+}
+
+.name-and-title {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.name-labels {
+     font-family: 'Lato', sans-serif;
+     text-align: center;
+     color: #bcbbbb;
+     font-weight: 500;
+     font-size: 40px;
+     margin-bottom: 0px;
+}
+
+.aligncenter {
+    display: block;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+}
+
+/* Grid columns spaced 1/12 apart  */
+.col-1 {
+    width: 8.33%;
+    /*overflow: auto;*/
+}
+
+/* Grid columns spaced 2/12 apart  */
+.col-2 {
+    width: 16.66%;
+    height: 158px;
+}
+
+
+.col-3 {
+    width: 25%;
+    /*overflow: auto;*/
+}
+
+
+.col-4 {
+    width: 33.33%;
+    
+}
+
+
+.col-5 {
+    width: 41.66%;
+    overflow: auto;
+}
+
+
+.col-6 {
+    width: 50%;
+}
+
+
+.col-7 {
+    width: 58.33%;
+    overflow: auto;
+}
+
+
+.col-8 {
+    width: 66.66%;
+    overflow: auto;
+}
+
+
+.col-9 {
+    width: 75%;
+    overflow: auto;
+}
+
+
+.col-10 {
+    width: 83.33%;
+    overflow: auto;
+}
+
+
+.col-11 {
+    width: 91.66%;
+    overflow: auto;
+}
+
+
+.col-12 {
+    width: 100%;
+}
+
+/*
+
+@media only screen and (max-width: 500px) {
+  p {
+    display: none;
+  }
+}
+@media only screen and (max-width: 500px) and (orientation: landscape) {
+    p {
+        display: none;
+    }
+}
+@media only screen and (max-width: 500px) {
+    p {
+        color: green;
+    }
+}
+@media only print and (max-width: 500px) {
+    p {
+        display: none;
+    }
+}
+
+
+
+*/
