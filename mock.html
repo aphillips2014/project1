@@ -6,74 +6,96 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!-- For mobile and how to display when it loads -->
   <meta name="viewport" content="width=device-width initial-scale=1">
-  <title>Project 1 Mock</title>
+  <title>Project 1 PDF Mock to HTML</title>
   <link rel="stylesheet" href="css/bootstrap.css">
-  <!--<link rel="stylesheet" href="css/main.css">-->
-  <link rel="stylesheet" href="http://normalize-css.googlecode.com/svn/trunk/normalize.css">
-  <link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/styles1.css">
+  <link href="http://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet" type="text/css">
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+  <!-- Bootstrap -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
-  <!-- grid holds all the divs and acts as the containter -->
-  <div class="grid">
-    <!-- A row div with 2 columns each spaced 1/12  -->
+  <!-- container holds all the divs and acts as the parent for all nodes -->
+   <!-- columns each spaced 1/12  -->
+  <div class="container">
+
+    <!-- Create row with 2 columns one for logo and one for the name and title -->
     <div class="row">
-      <div id="square" class="col-6 udacity-logo">
-           <img src="images/udacitylogo2.png">
+      <div class="col-md-6">
+           <img class="title-logo img-responsive" src="images/udacitylogo2.png" alt="Udacity Logo">
       </div>
-      <div class="col-6 name-and-title">
-        <h1>ANDREW PHILLLIPS</h1>
-        <h4>FRONT-END GUY</h4>
+      <div class="col-md-6 text-uppercase text-right">
+        <h1 class="title-super text-thin">ANDREW PHILLIPS</h1>
+        <h3 class="text-thick">Front-end Developer</h3>
       </div>    
     </div>
 
-    <div class="gray-line"></div>
+    <!-- Create row to hold horizontal rule -->
     <div class="row">
-      <div class="col-12 big-image">
-        <img src="images/htmllogo.png">
+      <div class="col-md-12">
+        <hr>
       </div>
     </div>
 
+    <div class="row">
+      <div class="col-md-12">
+        <img class="img-responsive" src="images/Web-Developer.png">
+      </div>
+    </div>
 
-    <div class="row" id="featured-work">
-         <h2>Featured Work</h2>
+    <div class="row">
+       <div class="col-md-12">
+         <h2 class="text-muted">Featured Work</h2>
+       </div>
     </div>  
 
-    <div class="row">
-      <div class="col-4" id="appify-align">
-        <img src="images/appify.png">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <img class="img-responsive" src="images/350.jpg" alt="interactive resume image" data-toggle="modal" data-target="#project1">
+        <h2>PDF Mock to HTML</h2>
+        <p>
+          <a href="https://github.com/udacity/project1/">https://github.com/udacity/project1</a>
+        </p>
       </div>
-      <div class="col-4" id="sunflower-align">
-        <img src="images/sunflower.png">
-      </div>
-      <div class="col-4" id="bokeh-align">
-        <img src="images/bokeh.png">
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="col-4">
-        <h2>APPIFY</h2>
+      <div class="col-md-4">
+        <img class="img-responsive" src="images/350.jpg" alt="sunflower image">
+        <h2>Project 2</h2>
+        <p>
+          <a class="btn btn-default" href="https://github.com/udacity/project2/" role="button">https://github.com/udacity/project2</a>
+        </p>
       </div>
-      <div class="col-4">
-        <h2>SUNFLOWER</h2>
-      </div>
-      <div class="col-4">
-        <h2>BOKEH</h2>
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="col-4">
-        <h4 id="aligncenter">https://github.com/udacity/Appify/</h4>
+      <div class="col-md-4">
+        <img class="img-responsive" src="images/350.jpg" alt="bokeh image">
+        <h2>Project 3</h2>
+        <p>
+          <a href="https://github.com/udacity/project3/">https://github.com/udacity/project3</a>
+        </p>
       </div>
-      <div class="col-4">
-        <h4 id="aligncenter">https://github.com/udacity/Sunflower/</h4>
-      </div>
-      <div class="col-4">
-        <h4 class="aligncenter">https://github.com/udacity/Bokeh/</h4>
-      </div>
+
     </div>
-    
   </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="images/350.jpg">
+          This was my first project in this class. I learned a lot about HTML and CSS and how to convert a PDF mockup to an actual working html web page. Topics learned were HTML, CSS, Grid design layout, bootstrap and basic responsive design.
+           <p>Great beginning &hellip;</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
