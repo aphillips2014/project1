@@ -1,0 +1,50 @@
+/*Global selector  which will put a border around all elements for 
+  easier viewing of elements
+*/
+ * {
+    border: 0px solid red !important;
+
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    color: #747704;
+}
+
+.text-muted{
+	color: #BCBBBB;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.text-thick {
+	font-weight: 700;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.title-logo {
+	margin-top: 10px;
+}
+
+a {
+	font-size: 1.3em;
+	color: #747704;
+}
+
+/*Not sure if this was correct but used a border to simulate a hr as 
+I could not get it to be visible without adding this.*/
+hr {
+	border: 1px solid grey !important;
+}
