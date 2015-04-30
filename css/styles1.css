@@ -2,7 +2,7 @@
   easier viewing of elements
 */
  * {
-    border: 0px solid red !important;
+    border: 0 solid red !important;
 
 }
 
@@ -13,13 +13,13 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Lato', sans-serif;
     color: #747704;
 }
 
 .text-muted{
-	color: #BCBBBB;
+	color: #bcbbbb;
 }
 
 .text-thin {
