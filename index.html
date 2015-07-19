@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- Use the best browser engine for user experience -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- For mobile and how to display when it loads -->
+  <meta name="viewport" content="width=device-width initial-scale=1">
+  <title>Project 1 PDF Mock to HTML</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles1.css">
+  <link href="http://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet" type="text/css">
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+  <!-- Bootstrap -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+   <!-- container holds all the divs and acts as the parent for all nodes -->
+   <!-- columns each spaced 1/12  -->
+  <div class="container">
+
+    <!-- Create row with 2 columns one for logo and one for the name and title -->
+    <div class="row">
+      <div class="col-md-6">
+           <img class="title-logo img-responsive" src="images/udacitylogo2.png" alt="Udacity Logo">
+      </div>
+      <div class="col-md-6 text-uppercase text-right">
+        <h1 class="title-super text-thin">ANDREW PHILLIPS</h1>
+        <h3 class="text-thick">Front-end Developer</h3>
+      </div>
+    </div>
+
+    <!-- Create row to hold horizontal rule -->
+    <div class="row">
+      <div class="col-md-12">
+        <hr>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <img class="img-responsive" src="images/Web-Developer.png" alt="Web Developer Image">
+      </div>
+    </div>
+
+    <div class="row">
+       <div class="col-md-12">
+         <h2 class="text-muted">Featured Work</h2>
+       </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-md-4">
+        <img class="img-responsive" src="images/project1.jpg" alt="pdf mock to html" data-toggle="modal" data-target="#project1">
+        <h2>Project 1</h2>
+        <p>
+          <a href="https://github.com/aphillips2014/project1">PDF Mock to HTML</a>
+        </p>
+      </div>
+
+      <div class="col-md-4">
+        <img class="img-responsive" src="images/project2.jpg" alt="interactive resume" data-toggle="modal" data-target="#project2">
+        <h2>Project 2</h2>
+        <p>
+          <a class="btn btn-default" href="https://github.com/aphillips2014/project2" role="button">Interactive Resume</a>
+        </p>
+      </div>
+
+      <div class="col-md-4">
+        <img class="img-responsive" src="images/frogger1.jpg" alt="frogger game" data-toggle="modal" data-target="#project3">
+        <h2>Project 3</h2>
+        <p>
+          <a class="btn btn-default" href="https://github.com/aphillips2014/project3" role="button">Frogger Game</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
